@@ -6,3 +6,9 @@ beforehand.
 Usage takes the form
 $ rtdir.sh [search string] [new path]
 be sure to escape the search string or path as necessary.
+
+The search string is applied to the *.torrent files in rtorrent's session
+directory. The only real information available in those files is the tracker,
+folder name, and contents of the torrent. If you'd like to change paths based on
+some other metric, such as time finished or current directory, you must change
+line 37, so that the search is applied to *.rtorrent.
