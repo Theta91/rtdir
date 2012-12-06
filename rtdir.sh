@@ -23,10 +23,8 @@ case "$1" in
     echo -e "Usage:"
     echo -e "  rtdir.sh [search string] [new path]\n"
 
-    echo -e "rtdir.sh changes the seeding directory of your files based on a search string,"
-    echo -e "such as a tracker, which can be a regular expression. It should be run in your"
-    echo -e "rtorrent session directory, while rtorrent is closed. As always, do a backup"
-    echo -e "beforehand.\n"
+    echo -e "[search string] can be anything from a tracker to a perl regular expression"
+    echo -e "[new path] is the destination of the torrent files matched by [search string]"
     exit 0
   ;;
   * )
