@@ -12,3 +12,6 @@ directory. The only real information available in those files is the tracker,
 folder name, and contents of the torrent. If you'd like to change paths based on
 some other metric, such as time finished or current directory, you must change
 line 37, so that the search is applied to *.rtorrent.
+
+If you want to see what your edits are going to do beforehand, simply remove the
+-i switch from sed.
