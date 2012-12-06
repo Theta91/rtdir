@@ -1,5 +1,5 @@
 rtdir.sh changes the seeding directory of your files based on a search string,
-such as a tracker, which can be regular expression. It should be run in your
+such as a tracker, which can be a regular expression. It should be run in your
 rtorrent session directory, while rtorrent is closed. As always, do a backup
 beforehand.
 
