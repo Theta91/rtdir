@@ -1,11 +1,7 @@
 WARNING
 =======
-I want to emphasize that this script has the potential to fuck up your torrents
--------------------------------------------------------------------------------
-really badly. I haven't had it fail on me, but you should back up your rtorrent
--------------------------------------------------------------------------------
-session directory before even thinking of executing this script.
-----------------------------------------------------------------
+I want to emphasize that this script has the potential to fuck up your torrents really badly. I haven't had it fail on me, but you should back up your rtorrent session directory before even thinking of executing this script.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 rtdir.sh changes the seeding directory of your files based on a search string,
 such as a tracker, which can be a regular expression. It should be run in your
